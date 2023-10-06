@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  <div class="contact-container">
+    <h1>Contact Us</h1>
+    <p>If you have any questions or inquiries, feel free to reach out to us using the contact information below.</p>
+
+    <div class="contact-info">
+      <div class="contact-item">
+        <span class="contact-label">Email:</span> example@example.com
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Phone:</span> +1 234 567 890
+      </div>
+      <div class="contact-item">
+        <span class="contact-label">Address:</span> 1234 Main St, City, Country
+      </div>
+    </div>
+
+    <h2>Contact Form</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="contact.js"></script>
+</body>
+</html>
